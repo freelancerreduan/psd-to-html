@@ -1,0 +1,176 @@
+/* Genarel CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+
+/* Frist Section */
+.mainMenu{
+    border-bottom: 2px solid #6d747a;
+    margin: 0;
+    padding: 0;
+    z-index: 9999999;
+}
+.myNavItem{
+    border-bottom: 3px solid salmon;
+    text-transform: uppercase;
+}
+.main{
+    position: relative;
+}
+#overlay {
+    position: absolute;
+    width: 100%;
+    height: 167vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 2;
+    cursor: pointer;
+  }
+.bg-img-style{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+/* Web Section code Start hear */
+.fotter-section{
+    background-color: #1b242b;
+    width: 100%;
+    height: auto;
+    color: white;
+}
+.contact-text{
+    padding: 25px 0;
+}
+.contact-section{
+    padding-top: 140px;
+    /* margin-top: 5px ; */
+}
+.copyright-section{
+    color: white;
+    background-color :#262f35;
+    width: 100%;
+    height: 60px;
+    padding-top: 7px;
+}
+.home-item-css{
+    margin-left: 286px;
+}
+.top-header{
+    margin-top: 131px   ;
+}
+.header-item{
+    z-index: 999999; 
+    color: white;
+}
+.btn-style{
+    margin-bottom: 165px;
+    border: none;
+    border :1px solid #1cbb82;
+    background-color: #1cbb82;
+    color: white;
+    width: 213px;
+    padding: 10px;
+}
+.btn-style-2{
+    margin-bottom: 165px;
+    border: none;
+    border :1px solid #1cbb82;
+    color: white;
+    width: 213px;
+    padding: 10px;
+    margin-right: 10px;
+}
+.btn-style-2:hover{
+    background-color: #1cbb82;
+}
+.btn-style:hover{
+    border :1px solid #1cbb82;
+    /* background-color: none; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Font Size Hear */
+.font-size-0{
+    font-size: 52px;
+}
+.font-size-1{
+    font-size: 44.42px;
+}
+.font-size-2{
+    font-size: 24px;
+}
+.font-size-3{
+    font-size: 19px;
+}
+.font-size-4{
+    font-size: 31px;
+}
+.text-color{
+    color: #34ce93;
+}
+.text-color-2{
+    color: #2a3339;
+    padding: 27px 0 0 0 ;
+}
+.text-color-3{
+    color: #1b242b;
+}
+.text-color-4{
+    color: #74777a;
+    padding: 47px 0 80px 0;
+    
+}
+
+
+
+
+
+/* SECOUND SECTION HEAR */
+.secound-section{
+    background-color: #ececec;
+    padding: 85px 0 140px 0;
+}
+
+/* THARD SECTION HEAR */
+.thard-section{
+    background-color: #1b242b;
+    color: white;
+    padding: 74px 0 109px 0;
+}
+
+/* FOURTH SECTION HEAR */
+.fourth-section{
+    background-color: white;
+    padding: 90px 0 127px 0;
+}
+
+/* FIVE SECTION HEAR */
+.five-section{
+    background-color: #19cc8b;
+    width: 100%;
+    color: white;
+    padding: 209px 0 227px 0;
+}
+
+/* SIX SECTION HEAR */
+.six-section{
+    padding: 180px 0 82px 0;
+}
